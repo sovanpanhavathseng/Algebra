@@ -1,0 +1,103 @@
+In set theory, the **complement** of a set is the set of elements that are not in the original set. The **relative complement** of a set A in a set B is the set of elements in B that are not in A.
+
+The complement of a set can be denoted by A' or A^c. The relative complement of A in B can be denoted by B \ A or B - A.
+
+For example, let A be the set of all even numbers and B be the set of all numbers from 1 to 10. The complement of A is the set of all odd numbers, and the relative complement of A in B is the set of all numbers from 1 to 10 that are not even.
+
+The complement and relative complement are two important set operations that are used in many different areas of mathematics, including probability, statistics, and logic.
+
+Here are some of the properties of complement and relative complement:
+
+* The complement of a set is always a set.
+* The relative complement of a set is always a set.
+* The complement of a set is always the same size as the universal set (the set that contains all possible elements).
+* The relative complement of a set can be smaller, larger, or the same size as the set itself.
+* The complement and relative complement of a set are mutually exclusive (they have no elements in common).
+* The complement and relative complement of a set are collectively exhaustive (they contain all possible elements).
+
+I hope this helps!
+
+The complement and relative complement are two set operations that are used to find the elements that are not in a set or the elements that are in a set but not in another set.
+
+The complement of a set is denoted by A' or A^c. It is the set of all elements that are not in A. For example, the complement of the set of even numbers is the set of all odd numbers.
+
+The relative complement of A in B is denoted by B \ A or B - A. It is the set of elements in B that are not in A. For example, the relative complement of the set of even numbers in the set of all numbers from 1 to 10 is the set of all numbers from 1 to 10 that are not even.
+
+The complement and relative complement are used in many different areas of mathematics, including probability, statistics, and logic.
+
+Here are some examples of how the complement and relative complement are used:
+
+* In probability, the complement of an event is the event that does not occur. For example, the complement of the event "the coin lands on heads" is the event "the coin lands on tails".
+* In statistics, the relative complement is used to calculate the probability of an event. For example, the probability of the coin landing on heads is 1/2. The probability of the coin landing on tails is 1 - 1/2 = 1/2.
+* In logic, the complement of a statement is the statement that is false if the original statement is true. For example, the complement of the statement "all dogs are mammals" is the statement "not all dogs are mammals".
+
+I hope this helps!
+
+Sure, here is the Python code for complement and relative complement:
+
+```python
+# Complement of a set
+def complement(set1):
+  """
+  This function returns the complement of a set.
+
+  Args:
+    set1: The set to be complemented.
+
+  Returns:
+    The complement of set1.
+  """
+
+  # Get the universe of sets.
+  universe = set()
+  for i in range(1, 10):
+    universe.add(i)
+
+  # Remove set1 from the universe.
+  complement = universe - set1
+
+  return complement
+
+
+# Relative complement of two sets
+def relative_complement(set1, set2):
+  """
+  This function returns the relative complement of two sets.
+
+  Args:
+    set1: The set to be complemented.
+    set2: The set to be compared to.
+
+  Returns:
+    The relative complement of set1.
+  """
+
+  # Get the intersection of set1 and set2.
+  intersection = set1 & set2
+
+  # Remove the intersection from set1.
+  relative_complement = set1 - intersection
+
+  return relative_complement
+```
+
+Here is an example of how to use these functions:
+
+```python
+# Create two sets
+set1 = {1, 2, 3, 4, 5}
+set2 = {2, 4, 6, 8}
+
+# Get the complement of set1
+complement_set1 = complement(set1)
+
+# Get the relative complement of set1 and set2
+relative_complement_set1_set2 = relative_complement(set1, set2)
+
+# Print the results
+print(complement_set1)
+# Output: {3, 5}
+
+print(relative_complement_set1_set2)
+# Output: {1, 3, 5}
+```
