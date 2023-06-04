@@ -1,0 +1,102 @@
+Set equality and subsets are two important concepts in set theory.
+
+**Set equality**
+
+Two sets are equal if and only if they have the same elements. For example, the sets {1, 2, 3} and {3, 2, 1} are equal, because they both contain the same elements.
+
+**Subsets**
+
+A set A is a subset of a set B if and only if every element of A is also an element of B. For example, the set {1, 2, 3} is a subset of the set {1, 2, 3, 4, 5}, because every element of {1, 2, 3} is also an element of {1, 2, 3, 4, 5}.
+
+A subset can be a **proper subset** if it does not equal the original set. For example, the set {1, 2, 3} is a proper subset of the set {1, 2, 3, 4, 5}, because {1, 2, 3} does not contain the element 4.
+
+**Relation between set equality and subsets**
+
+Two sets are equal if and only if they are both subsets of each other. For example, the sets {1, 2, 3} and {3, 2, 1} are equal, because they are both subsets of each other.
+
+**Symbols for set equality and subsets**
+
+The symbol for set equality is "=". The symbol for subset is "⊆". The symbol for proper subset is "⊈".
+
+**Examples of set equality and subsets**
+
+* The sets {1, 2, 3} and {3, 2, 1} are equal.
+* The set {1, 2, 3} is a subset of the set {1, 2, 3, 4, 5}.
+* The set {1, 2, 3} is a proper subset of the set {1, 2, 3, 4, 5}.
+
+**Applications of set equality and subsets**
+
+Set equality and subsets are used in many areas of mathematics, including set theory, logic, probability, and statistics. For example, set equality is used to define the concept of a function, and subsets are used to define the concept of a relation.
+
+Set equality and subsets work by comparing the elements of two sets. Two sets are equal if they have the same elements, regardless of the order of the elements. A set A is a subset of a set B if and only if every element of A is also an element of B.
+
+Here are some examples of set equality and subsets:
+
+* The sets {1, 2, 3} and {3, 2, 1} are equal, because they have the same elements.
+* The set {1, 2, 3} is a subset of the set {1, 2, 3, 4, 5}, because every element of {1, 2, 3} is also an element of {1, 2, 3, 4, 5}.
+* The set {1, 2, 3} is a proper subset of the set {1, 2, 3, 4, 5}, because {1, 2, 3} does not contain the element 4.
+
+Set equality and subsets can be used to solve many different types of problems. For example, set equality can be used to determine if two sets are equal, and subsets can be used to determine if one set is a subset of another set.
+
+Here are some examples of how set equality and subsets can be used to solve problems:
+
+* A company wants to know if all of its employees are also customers. The company can use set equality to determine if the set of employees is equal to the set of customers.
+* A school wants to know if all of its students are also members of the student council. The school can use set equality to determine if the set of students is equal to the set of student council members.
+* A retailer wants to know if all of its products are also available in its online store. The retailer can use set equality to determine if the set of products is equal to the set of products available in the online store.
+
+Set equality and subsets are two important concepts in set theory. They can be used to solve many different types of problems, and they are essential for understanding many other concepts in mathematics.
+
+Sure, here is some Python code for set equality and subsets:
+
+```python
+# Set equality
+def set_equality(set1, set2):
+  if set1 == set2:
+    return True
+  else:
+    return False
+
+# Subset
+def subset(set1, set2):
+  if set1 <= set2:
+    return True
+  else:
+    return False
+
+# Proper subset
+def proper_subset(set1, set2):
+  if set1 < set2:
+    return True
+  else:
+    return False
+
+# Example
+set1 = {1, 2, 3}
+set2 = {1, 2, 3, 4, 5}
+
+# Check if set1 is equal to set2
+if set_equality(set1, set2):
+  print("Set1 is equal to set2")
+else:
+  print("Set1 is not equal to set2")
+
+# Check if set1 is a subset of set2
+if subset(set1, set2):
+  print("Set1 is a subset of set2")
+else:
+  print("Set1 is not a subset of set2")
+
+# Check if set1 is a proper subset of set2
+if proper_subset(set1, set2):
+  print("Set1 is a proper subset of set2")
+else:
+  print("Set1 is not a proper subset of set2")
+```
+
+This code will print the following output:
+
+```
+Set1 is not equal to set2
+Set1 is a subset of set2
+Set1 is a proper subset of set2
+```
