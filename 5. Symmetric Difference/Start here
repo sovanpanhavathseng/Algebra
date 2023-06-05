@@ -1,0 +1,92 @@
+In mathematics, the symmetric difference of two sets, also known as the disjunctive union, is the set of elements which are in either of the sets, but not in their intersection. For example, the symmetric difference of the sets {1,2,3} and {3,4} is {1,2,4}.
+
+The symmetric difference of two sets can be denoted in several ways:
+
+* A△B (A symmetric difference B)
+* A⊖B (A exclusive or B)
+* A⊕B (A disjunctive union B)
+* (A∪B)-(A∩B) (The union of A and B, minus their intersection)
+
+The symmetric difference of two sets has several properties:
+
+* It is commutative, meaning that A△B is the same as B△A.
+* It is associative, meaning that (A△B)△C is the same as A△(B△C).
+* It distributes over union, meaning that A△(B∪C) is the same as (A△B)∪(A△C).
+* It distributes over intersection, meaning that A△(B∩C) is the same as (A△B)∩(A△C).
+
+The symmetric difference of two sets can be used to solve a variety of problems in mathematics and computer science. For example, it can be used to find the union of two sets, to find the intersection of two sets, to find the difference of two sets, and to find the complement of a set.
+
+Here are some examples of how the symmetric difference can be used:
+
+* To find the union of two sets, we can take the symmetric difference of the two sets and then add the intersection of the two sets.
+* To find the intersection of two sets, we can take the symmetric difference of the two sets and then subtract the union of the two sets.
+* To find the difference of two sets, we can take the symmetric difference of the two sets and then add the complement of the second set.
+* To find the complement of a set, we can take the symmetric difference of the set and the universe of discourse.
+
+The symmetric difference is a powerful tool that can be used to solve a variety of problems in mathematics and computer science.
+
+The symmetric difference of two sets A and B is the set of elements that are in either A or B, but not in both. It is denoted by A ⊝ B.
+
+For example, if A = {1, 2, 3, 4} and B = {2, 4, 5, 6}, then the symmetric difference is {1, 3, 5, 6}.
+
+The symmetric difference can be calculated using the following steps:
+
+1. Find the union of A and B.
+2. Find the intersection of A and B.
+3. Subtract the intersection from the union.
+
+The result is the symmetric difference of A and B.
+
+The symmetric difference has a number of interesting properties. For example, the symmetric difference of two sets is commutative, associative, and distributive. This means that the order in which you perform the operations does not matter, and that the symmetric difference distributes over the union and intersection operations.
+
+The symmetric difference can be used to solve a variety of problems. For example, it can be used to find all of the elements that are in exactly one of two sets, or to find all of the elements that are in either of two sets but not in both.
+
+The symmetric difference is a powerful tool that can be used to solve a variety of problems. It is a fundamental concept in set theory, and it is used in a variety of fields, including mathematics, computer science, and statistics.
+
+Sure, here is the Python code for symmetric difference:
+
+```python
+def symmetric_difference(set1, set2):
+  """
+  Returns the symmetric difference of two sets.
+
+  Args:
+    set1: The first set.
+    set2: The second set.
+
+  Returns:
+    The symmetric difference of the two sets.
+  """
+
+  return set1.symmetric_difference(set2)
+
+
+if __name__ == "__main__":
+  set1 = {1, 2, 3}
+  set2 = {2, 4, 5}
+
+  print(symmetric_difference(set1, set2))
+```
+
+This code will print the following output:
+
+```
+{1, 3, 4, 5}
+```
+
+The symmetric difference of two sets is a set of elements that are in either set, but not in both sets. In this example, the elements in the symmetric difference are 1, 3, 4, and 5. These are all elements that are in either set1 or set2, but not in both sets.
+
+You can also use the symmetric difference operator (^) to find the symmetric difference of two sets. The following code is equivalent to the previous code:
+
+```python
+set1 = {1, 2, 3}
+set2 = {2, 4, 5}
+
+print(set1 ^ set2)
+```
+
+This code will also print the following output:
+
+```
+{1, 3, 4, 5}
+```
