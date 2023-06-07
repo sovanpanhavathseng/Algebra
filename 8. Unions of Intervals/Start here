@@ -1,0 +1,105 @@
+The union of two intervals is the set of all numbers that are in either interval, or in both intervals. To find the union of two intervals, we can draw a number line and shade in the regions that correspond to the two intervals. The union of the two intervals is the shaded region.
+
+Here are some examples of unions of intervals:
+
+* The union of the intervals (1, 5) and (3, 7) is the interval (1, 7).
+* The union of the intervals (-2, 0) and (0, 2) is the interval [-2, 2].
+* The union of the intervals (-1, 1) and (2, 3) is the set of all real numbers between -1 and 3, inclusive.
+
+The union of two intervals can be any interval, or it can be the entire real number line. The union of two intervals is not necessarily an interval. For example, the union of the intervals (1, 2) and (3, 4) is the set of all real numbers between 1 and 4, which is not an interval.
+
+Here are some properties of the union of intervals:
+
+* The union of two disjoint intervals is the union of the two intervals.
+* The union of two overlapping intervals is the union of the two intervals, plus the region where the intervals overlap.
+* The union of two identical intervals is the interval itself.
+
+The union of intervals is a useful operation in mathematics. It can be used to solve problems in set theory, calculus, and other areas of mathematics.
+
+The union of intervals is a set that consists of all the elements that belong to any of the given intervals. In other words, it is the collection of all numbers that are in at least one of the intervals.
+
+To find the union of two intervals, we can use the following steps:
+
+1. Draw a number line and label the endpoints of each interval.
+2. Shade in the area that represents the union of the two intervals.
+3. The union of the two intervals is the set of all numbers that are shaded in.
+
+For example, let's say we have the following two intervals:
+
+```
+(1, 5)
+(3, 7)
+```
+
+To find the union of these two intervals, we would draw a number line and label the endpoints of each interval as shown below:
+
+```
+0 1 2 3 4 5 6 7 8 9
+```
+
+(1, 5)
+(3, 7)
+
+
+Next, we would shade in the area that represents the union of the two intervals. This would be the entire area between 1 and 7, inclusive.
+
+
+0 1 2 3 4 5 6 7 8 9
+
+
+The union of the two intervals is the set of all numbers that are shaded in, which is the interval (1, 7).
+
+The union of more than two intervals can be found in a similar way. For example, the union of the intervals (1, 5), (3, 7), and (9, 11) would be the interval (1, 11).
+
+The union of intervals is a useful operation in many areas of mathematics, including set theory, logic, and probability. It can also be used to solve problems in computer science, such as finding the intersection of two sets.
+
+Sure, here is the Python code for unions of intervals:
+
+```python
+def union_of_intervals(intervals):
+  """
+  This function takes a list of intervals and returns a list of merged intervals.
+
+  Args:
+    intervals: A list of intervals, where each interval is a tuple of (start, end).
+
+  Returns:
+    A list of merged intervals.
+  """
+
+  # Sort the intervals by their start times.
+  intervals.sort()
+
+  # Initialize the output list.
+  output = []
+
+  # Iterate over the intervals.
+  for i in range(len(intervals)):
+    # If the current interval is a subset of the previous interval,
+    # then merge the two intervals.
+    if i > 0 and intervals[i][0] <= output[-1][1]:
+      output[-1] = (output[-1][0], max(output[-1][1], intervals[i][1]))
+    # Otherwise, add the current interval to the output list.
+    else:
+      output.append(intervals[i])
+
+  return output
+```
+
+Here is an example of how to use the `union_of_intervals` function:
+
+```python
+intervals = [(1, 5), (3, 7), (9, 12)]
+
+union_intervals = union_of_intervals(intervals)
+
+print(union_intervals)
+```
+
+This will print the following output:
+
+```
+[(1, 12)]
+```
+
+This is because the three intervals in the `intervals` list overlap, so they can be merged into a single interval that starts at 1 and ends at 12.
