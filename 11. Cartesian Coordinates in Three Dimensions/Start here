@@ -1,0 +1,113 @@
+Cartesian coordinates in three dimensions are a system for locating points in space using three numbers. The three numbers are called the x-coordinate, the y-coordinate, and the z-coordinate. The x-coordinate tells how far the point is from the origin in the positive x-direction, the y-coordinate tells how far the point is from the origin in the positive y-direction, and the z-coordinate tells how far the point is from the origin in the positive z-direction.
+
+The origin is the point where all three axes intersect. The axes are usually drawn so that they are perpendicular to each other. The positive x-axis points to the right, the positive y-axis points up, and the positive z-axis points out of the page.
+
+A point in three dimensions can be represented by an ordered triple of numbers, where the first number is the x-coordinate, the second number is the y-coordinate, and the third number is the z-coordinate. For example, the point that is 2 units to the right, 3 units up, and 4 units out of the page can be represented by the ordered triple (2, 3, 4).
+
+Cartesian coordinates are used in many different fields, including mathematics, physics, engineering, and computer science. They are a powerful tool for visualizing and describing objects and relationships in three dimensions.
+
+Here are some examples of how Cartesian coordinates are used in real life:
+
+* In engineering, Cartesian coordinates are used to design and build objects. For example, engineers use Cartesian coordinates to determine the dimensions of a part or to specify the location of a hole.
+* In physics, Cartesian coordinates are used to describe the motion of objects. For example, physicists use Cartesian coordinates to track the path of a projectile or to calculate the velocity of an object.
+* In computer science, Cartesian coordinates are used to represent objects in 3D video games and other computer graphics applications. For example, game developers use Cartesian coordinates to position the player character, to create objects in the game world, and to calculate the distance between objects.
+
+Cartesian coordinates are a versatile tool that can be used to solve a wide variety of problems. If you are interested in learning more about Cartesian coordinates, there are many resources available online and in libraries.
+
+Cartesian coordinates in three dimensions work by using three perpendicular axes to locate points in space. The three axes are the x-axis, the y-axis, and the z-axis. The origin is the point where all three axes intersect.
+
+To locate a point in three dimensions, we start at the origin and move along the x-axis a distance equal to the x-coordinate of the point. Then, we move parallel to the y-axis a distance equal to the y-coordinate of the point. Finally, we move parallel to the z-axis a distance equal to the z-coordinate of the point.
+
+For example, the point with coordinates (2, 3, 4) is located by moving 2 units to the right along the x-axis, 3 units up along the y-axis, and 4 units forward along the z-axis.
+
+Cartesian coordinates in three dimensions can be used to represent points, lines, planes, and solids. They are a powerful tool for visualizing and describing objects and relationships in three dimensions.
+
+Here are some examples of how Cartesian coordinates in three dimensions are used:
+
+* In engineering, Cartesian coordinates are used to design and build objects. For example, engineers use Cartesian coordinates to determine the dimensions of a part or to specify the location of a hole.
+* In physics, Cartesian coordinates are used to describe the motion of objects. For example, physicists use Cartesian coordinates to track the path of a projectile or to calculate the velocity of an object.
+* In computer science, Cartesian coordinates are used to represent objects in 3D video games and other computer graphics applications. For example, game developers use Cartesian coordinates to position the player character, to create objects in the game world, and to calculate the distance between objects.
+
+Cartesian coordinates in three dimensions are a versatile tool that can be used to solve a wide variety of problems. If you are interested in learning more about Cartesian coordinates in three dimensions, there are many resources available online and in libraries.
+
+Here are some additional tips for using Cartesian coordinates in three dimensions:
+
+* When working with Cartesian coordinates, it is important to remember that the axes are perpendicular to each other. This means that if you move along one axis, you will not be moving along any of the other axes at the same time.
+* It is also important to remember that the positive direction on each axis is the direction that points away from the origin.
+* When working with Cartesian coordinates, it is often helpful to use a graphing calculator or computer software. These tools can help you to visualize the points and objects that you are working with.
+
+Sure, here is a simple Python code for Cartesian coordinates in three dimensions:
+
+```python
+import math
+
+def get_point_in_3d(x, y, z):
+  """
+  Returns a point in 3D space with the given coordinates.
+
+  Args:
+    x: The x-coordinate of the point.
+    y: The y-coordinate of the point.
+    z: The z-coordinate of the point.
+
+  Returns:
+    A point in 3D space with the given coordinates.
+  """
+
+  return (x, y, z)
+
+def get_distance_between_points(p1, p2):
+  """
+  Returns the distance between two points in 3D space.
+
+  Args:
+    p1: The first point.
+    p2: The second point.
+
+  Returns:
+    The distance between the two points.
+  """
+
+  x1, y1, z1 = p1
+  x2, y2, z2 = p2
+
+  dx = x1 - x2
+  dy = y1 - y2
+  dz = z1 - z2
+
+  return math.sqrt(dx * dx + dy * dy + dz * dz)
+
+def main():
+  # Create a point in 3D space.
+  p1 = get_point_in_3d(1, 2, 3)
+
+  # Create another point in 3D space.
+  p2 = get_point_in_3d(4, 5, 6)
+
+  # Get the distance between the two points.
+  distance = get_distance_between_points(p1, p2)
+
+  # Print the distance.
+  print(distance)
+
+if __name__ == "__main__":
+  main()
+```
+
+This code defines three functions:
+
+* `get_point_in_3d()`: This function takes three numbers as input and returns a point in 3D space with the given coordinates.
+* `get_distance_between_points()`: This function takes two points as input and returns the distance between them.
+* `main()`: This function is the entry point for the program. It creates two points and prints the distance between them.
+
+You can run this code by saving it as a file called `cartesian_coordinates.py` and then running the following command:
+
+```
+python cartesian_coordinates.py
+```
+
+This will print the following output:
+
+```
+5.196152422706632
+```
