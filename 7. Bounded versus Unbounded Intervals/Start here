@@ -1,0 +1,108 @@
+In mathematics, an interval is a set of real numbers that has a beginning and an end. Intervals can be bounded or unbounded. A bounded interval has a finite size, while an unbounded interval has an infinite size.
+
+**Bounded Intervals**
+
+A bounded interval is an interval that has a finite size. This means that there are numbers that are smaller than all of the numbers in the interval, and there are numbers that are larger than all of the numbers in the interval.
+
+There are three types of bounded intervals:
+
+* Closed intervals: A closed interval includes its endpoints. For example, the interval [0, 1] is a closed interval.
+* Open intervals: An open interval does not include its endpoints. For example, the interval (0, 1) is an open interval.
+* Half-open intervals: A half-open interval includes one endpoint but not the other. For example, the interval [0, 1) is a half-open interval.
+
+**Unbounded Intervals**
+
+An unbounded interval is an interval that has an infinite size. This means that there are no numbers that are smaller than all of the numbers in the interval, and there are no numbers that are larger than all of the numbers in the interval.
+
+There are two types of unbounded intervals:
+
+* Left-unbounded intervals: A left-unbounded interval has no lower bound. For example, the interval (-∞, 1) is a left-unbounded interval.
+* Right-unbounded intervals: A right-unbounded interval has no upper bound. For example, the interval [0, ∞) is a right-unbounded interval.
+
+**Examples of Bounded and Unbounded Intervals**
+
+Here are some examples of bounded and unbounded intervals:
+
+* **Bounded intervals:**
+    * [0, 1]
+    * (0, 1)
+    * [0, 1)
+* **Unbounded intervals:**
+    * (-∞, 1)
+    * [0, ∞)
+    * (-∞, ∞)
+
+**How to Determine if an Interval is Bounded or Unbounded**
+
+To determine if an interval is bounded or unbounded, you can use the following steps:
+
+1. Find the smallest and largest numbers in the interval.
+2. If there are numbers smaller than the smallest number in the interval, or if there are numbers larger than the largest number in the interval, then the interval is unbounded.
+3. If there are no numbers smaller than the smallest number in the interval, and there are no numbers larger than the largest number in the interval, then the interval is bounded.
+
+Bounded and unbounded intervals work in different ways. Bounded intervals have a finite size, while unbounded intervals have an infinite size. This means that bounded intervals can be described by a finite number of numbers, while unbounded intervals can only be described by an infinite number of numbers.
+
+Bounded intervals are often used in mathematics to represent sets of numbers that have a specific range. For example, the interval [0, 1] represents all real numbers between 0 and 1, inclusive. This interval is bounded because there are numbers smaller than 0 and numbers larger than 1.
+
+Unbounded intervals are often used in mathematics to represent sets of numbers that have no specific range. For example, the interval (-∞, 1) represents all real numbers less than or equal to 1. This interval is unbounded because there are no numbers smaller than -∞.
+
+Bounded and unbounded intervals can also be used to represent sets of numbers that have a specific shape. For example, the interval (0, 1) is a line segment, while the interval (-∞, 1) is an open ray.
+
+Bounded and unbounded intervals are a powerful tool in mathematics. They can be used to represent a wide variety of sets of numbers, and they can be used to solve a wide variety of problems.
+
+Here are some examples of how bounded and unbounded intervals are used in mathematics:
+
+* In calculus, bounded intervals are used to define functions and to find the limits of functions.
+* In geometry, bounded intervals are used to define lines, segments, and rays.
+* In probability, bounded intervals are used to define random variables and to find the probabilities of events.
+* In statistics, bounded intervals are used to estimate parameters and to make predictions.
+
+Bounded and unbounded intervals are a fundamental concept in mathematics. They are used in a wide variety of mathematical fields, and they are a powerful tool for solving problems.
+
+Sure, here is some Python code for determining whether an interval is bounded or unbounded:
+
+```python
+def is_bounded(interval):
+  """
+  Returns True if the interval is bounded, False otherwise.
+
+  Args:
+    interval: A tuple of two numbers, representing the start and end of the interval.
+
+  Returns:
+    True if the interval is bounded, False otherwise.
+  """
+
+  start, end = interval
+
+  # Check if there are numbers smaller than the start of the interval.
+  if start < -float("inf"):
+    return False
+
+  # Check if there are numbers larger than the end of the interval.
+  if end > float("inf"):
+    return False
+
+  return True
+```
+
+This function works by first checking if there are numbers smaller than the start of the interval. If there are, then the interval is unbounded. If there are no numbers smaller than the start of the interval, then the function checks if there are numbers larger than the end of the interval. If there are, then the interval is unbounded. If there are no numbers larger than the end of the interval, then the interval is bounded.
+
+Here is an example of how to use this function:
+
+```python
+interval = (0, 1)
+
+if is_bounded(interval):
+  print("The interval is bounded.")
+else:
+  print("The interval is unbounded.")
+```
+
+This code will print the following output:
+
+```
+The interval is bounded.
+```
+
+I hope this helps!
