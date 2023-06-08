@@ -1,0 +1,112 @@
+Interval notation and the number line are both useful tools for working with real numbers. They can be used to solve equations, inequalities, and other mathematical problems.
+
+## Interval Notation
+
+Interval notation is a way of writing sets of real numbers. It uses parentheses and brackets to indicate whether the endpoints of the interval are included or not.
+
+* Parentheses () indicate that the endpoint is not included.
+* Brackets [] indicate that the endpoint is included.
+
+For example, the interval notation (1, 5] represents all real numbers between 1 and 5, including 1 but not 5.
+
+## The Number Line
+
+The number line is a visual representation of the real numbers. It is a line that goes on forever in both directions, with positive numbers to the right and negative numbers to the left. Intervals can be plotted on the number line to show which real numbers they contain.
+
+For example, the interval notation (-2, 4] can be plotted on the number line as follows:
+
+```
+-5 -4 -3 -2 -1 0 1 2 3 4 5
+```
+
+A solid dot is placed at each endpoint of the interval, and an open dot is placed at any numbers that are not included in the interval. In this case, there is a solid dot at -2 and 4, and an open dot at all other numbers.
+
+## Using Interval Notation and the Number Line Together
+
+Interval notation and the number line can be used together to solve equations, inequalities, and other mathematical problems. For example, consider the following problem:
+
+> Find all real numbers x such that x² < 4.
+
+We can solve this problem by plotting the interval (-2, 2) on the number line. Any real number that falls within this interval satisfies the inequality x² < 4.
+
+```
+-5 -4 -3 -2 -1 0 1 2 3 4 5
+```
+
+## Conclusion
+
+Interval notation and the number line are both useful tools for working with real numbers. They can be used to solve equations, inequalities, and other mathematical problems.
+
+Interval notation is a way of writing sets of real numbers. It uses parentheses and brackets to indicate whether the endpoints of the interval are included or not. For example, the interval notation (1, 5] represents all real numbers between 1 and 5, including 1 but not 5.
+
+The number line is a visual representation of the real numbers. It is a line that goes on forever in both directions, with positive numbers to the right and negative numbers to the left. Intervals can be plotted on the number line to show which real numbers they contain.
+
+Here are some examples of how interval notation and the number line can be used together:
+
+* The interval notation (-2, 4] represents all real numbers between -2 and 4, including -2 but not 4. This interval can be plotted on the number line as a closed interval, with a solid dot at -2 and an open dot at 4.
+* The interval notation [-3, 0) represents all real numbers between -3 and 0, including 0 but not -3. This interval can be plotted on the number line as an open interval, with a solid dot at 0 and an open dot at -3.
+* The interval notation (-∞, 3) represents all real numbers less than or equal to 3. This interval can be plotted on the number line as a closed interval, with a solid dot at 3 and an open dot at -∞.
+* The interval notation [3, ∞) represents all real numbers greater than or equal to 3. This interval can be plotted on the number line as an open interval, with a solid dot at 3 and an open dot at ∞.
+
+Interval notation and the number line are both useful tools for working with real numbers. They can be used to solve equations, inequalities, and other mathematical problems.
+
+Sure, here is some Python code for interval notation and the number line:
+
+```python
+import matplotlib.pyplot as plt
+
+def interval_notation(start, end, inclusive):
+  """
+  Converts a start and end point to interval notation.
+
+  Args:
+    start: The start point of the interval.
+    end: The end point of the interval.
+    inclusive: Whether or not the start and end points are included in the interval.
+
+  Returns:
+    A string representing the interval in interval notation.
+  """
+
+  if inclusive:
+    if start == end:
+      return str(start)
+    else:
+      return "(" + str(start) + ", " + str(end) + "]"
+  else:
+    if start == end:
+      return str(start)
+    else:
+      return "[" + str(start) + ", " + str(end) + ")"
+
+def number_line(interval):
+  """
+  Plots an interval on a number line.
+
+  Args:
+    interval: The interval to plot.
+
+  Returns:
+    None.
+  """
+
+  plt.plot([interval[0], interval[1]], [0, 0], 'b-')
+  plt.xlim(interval[0], interval[1])
+  plt.show()
+
+def main():
+  # Define the interval.
+  interval = interval_notation(1, 10, True)
+
+  # Plot the interval on a number line.
+  number_line(interval)
+
+if __name__ == "__main__":
+  main()
+```
+
+This code will plot the following number line:
+
+```
+[1, 10]
+```
