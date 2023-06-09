@@ -1,0 +1,86 @@
+A scatter plot is a type of chart or mathematical diagram using Cartesian coordinates to display values for typically two variables for a set of data. If the points are coded (color/shape/size), one additional variable can be displayed. The data are displayed as a collection of points, each having the value of one variable determining the position on the horizontal axis and the value of the other variable determining the position on the vertical axis.
+
+A scatter plot can suggest various kinds of correlations between variables with a certain confidence interval. For example, weight and height would be on the y-axis, and height would be on the x-axis. Correlations may be positive (rising), negative (falling), or null (uncorrelated). If the dots' pattern slopes from lower left to upper right, it indicates a positive correlation between the variables being studied. If the pattern of dots slopes from upper left to lower right, it indicates a negative correlation. A line of best fit (alternatively called 'trendline') can be drawn to study the relationship between the variables.
+
+Here are some examples of scatter plots:
+
+* **Positive correlation:** A positive correlation is indicated by a scatter plot where the dots tend to cluster in a line that slopes upwards from left to right. This means that as the value of one variable increases, the value of the other variable also increases. For example, a scatter plot of height and weight would likely show a positive correlation, as taller people tend to be heavier.
+* **Negative correlation:** A negative correlation is indicated by a scatter plot where the dots tend to cluster in a line that slopes downwards from left to right. This means that as the value of one variable increases, the value of the other variable decreases. For example, a scatter plot of temperature and ice cream sales would likely show a negative correlation, as people tend to buy more ice cream when it is hot outside.
+* **No correlation:** A scatter plot with no correlation is indicated by a scatter plot where the dots are scattered randomly. This means that there is no clear relationship between the two variables. For example, a scatter plot of shoe size and IQ would likely show no correlation, as there is no clear relationship between the size of a person's feet and their intelligence.
+
+Scatter plots are a useful tool for visualizing the relationship between two variables. They can be used to identify the type of correlation between the variables, to estimate the strength of the correlation, and to identify outliers.
+
+A scatter plot is a type of graph that shows the relationship between two variables. The variables are plotted on the x-axis and y-axis, and each data point is represented by a dot. The pattern of the dots can be used to infer the relationship between the variables.
+
+Here are some examples of how scatter plots work:
+
+* **Positive correlation:** A positive correlation is indicated by a scatter plot where the dots tend to cluster in a line that slopes upwards from left to right. This means that as the value of one variable increases, the value of the other variable also increases. For example, a scatter plot of height and weight would likely show a positive correlation, as taller people tend to be heavier.
+* **Negative correlation:** A negative correlation is indicated by a scatter plot where the dots tend to cluster in a line that slopes downwards from left to right. This means that as the value of one variable increases, the value of the other variable decreases. For example, a scatter plot of temperature and ice cream sales would likely show a negative correlation, as people tend to buy more ice cream when it is hot outside.
+* **No correlation:** A scatter plot with no correlation is indicated by a scatter plot where the dots are scattered randomly. This means that there is no clear relationship between the two variables. For example, a scatter plot of shoe size and IQ would likely show no correlation, as there is no clear relationship between the size of a person's feet and their intelligence.
+
+Scatter plots are a useful tool for visualizing the relationship between two variables. They can be used to identify the type of correlation between the variables, to estimate the strength of the correlation, and to identify outliers.
+
+Here are some additional tips for using scatter plots:
+
+* **Use a consistent scale:** The scales on the x-axis and y-axis should be consistent so that the relationship between the variables can be easily seen.
+* **Label the axes:** The x-axis and y-axis should be labeled with the names of the variables.
+* **Use a legend:** If you are using different symbols or colors to represent different data points, use a legend to identify what each symbol or color represents.
+* **Draw a line of best fit:** A line of best fit can be drawn through the data points to help you visualize the relationship between the variables.
+* **Interpret the results:** Once you have drawn a line of best fit, you can interpret the results to see what the relationship between the variables is.
+
+Scatter plots are a powerful tool for visualizing the relationship between two variables. By understanding how scatter plots work, you can use them to gain insights into your data and make better decisions.
+
+Here is a simple Python code for creating a scatter plot:
+
+```python
+import matplotlib.pyplot as plt
+
+# Create some data
+x = [1, 2, 3, 4, 5]
+y = [2, 4, 6, 8, 10]
+
+# Create a scatter plot
+plt.scatter(x, y)
+
+# Add a title
+plt.title('Scatter Plot')
+
+# Add x-axis and y-axis labels
+plt.xlabel('x')
+plt.ylabel('y')
+
+# Show the plot
+plt.show()
+```
+
+This code will create a scatter plot with the data points (1, 2), (2, 4), (3, 6), (4, 8), and (5, 10). The title of the plot will be "Scatter Plot" and the x-axis and y-axis labels will be "x" and "y" respectively. The plot will be shown in a new window.
+
+Here is a more advanced Python code for creating a scatter plot with more customization options:
+
+```python
+import matplotlib.pyplot as plt
+
+# Create some data
+x = [1, 2, 3, 4, 5]
+y = [2, 4, 6, 8, 10]
+
+# Create a scatter plot
+plt.scatter(x, y, s=100, c='red')
+
+# Add a title
+plt.title('Scatter Plot')
+
+# Add x-axis and y-axis labels
+plt.xlabel('x')
+plt.ylabel('y')
+
+# Add a line of best fit
+plt.plot(x, y, 'b-')
+
+# Show the plot
+plt.show()
+```
+
+This code will create a scatter plot with the same data points as the previous code, but it will also add a line of best fit and customize the size and color of the data points. The size of the data points is set to 100 and the color is set to red. The line of best fit is drawn in blue. The title of the plot is still "Scatter Plot" and the x-axis and y-axis labels are still "x" and "y" respectively. The plot will be shown in a new window.
+
+These are just a few examples of how to create scatter plots in Python. There are many other ways to customize scatter plots and you can experiment with different settings to create the perfect plot for your data.
