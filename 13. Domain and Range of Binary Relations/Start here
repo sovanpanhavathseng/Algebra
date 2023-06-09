@@ -1,0 +1,74 @@
+In mathematics, the domain and range of a binary relation are two sets that are associated with the relation. The domain is the set of all elements that can be on the left-hand side of an ordered pair in the relation, and the range is the set of all elements that can be on the right-hand side of an ordered pair in the relation.
+
+For example, the relation "is greater than" on the set of real numbers has domain all real numbers and range all real numbers greater than zero. This is because for any real number x, the ordered pair (x, y) is in the relation if and only if y is greater than x.
+
+The domain and range of a binary relation can be determined by looking at the definition of the relation. In some cases, the domain and range may be obvious from the definition. In other cases, it may be necessary to do some work to determine the domain and range.
+
+The domain and range of a binary relation are important because they can be used to describe the properties of the relation. For example, a relation is said to be a function if and only if every element in the domain is related to exactly one element in the range.
+
+Here are some additional facts about domain and range:
+
+* The domain and range of a binary relation are always subsets of the sets that the relation is defined on.
+* The domain and range of a binary relation can be the same set.
+* The domain and range of a binary relation can be disjoint sets.
+* The domain and range of a binary relation can be empty sets.
+
+I hope this helps!
+
+The domain and range of a binary relation are two sets that are associated with the relation. The domain is the set of all elements that can be on the left-hand side of an ordered pair in the relation, and the range is the set of all elements that can be on the right-hand side of an ordered pair in the relation.
+
+To determine the domain and range of a binary relation, we can use the following steps:
+
+1. Identify the set that the relation is defined on.
+2. For each element in the set, check if it is possible to form an ordered pair with that element as the left-hand side. If it is possible, then the element is in the domain.
+3. For each ordered pair in the relation, check if the right-hand side element is in the set. If it is, then the right-hand side element is in the range.
+
+Once we have determined the domain and range of a binary relation, we can use them to describe the properties of the relation. For example, a relation is said to be a function if and only if every element in the domain is related to exactly one element in the range.
+
+Here are some examples of binary relations and their domains and ranges:
+
+* The relation "is greater than" on the set of real numbers has domain all real numbers and range all real numbers greater than zero.
+* The relation "is equal to" on the set of integers has domain and range all integers.
+* The relation "is a parent of" on the set of people has domain all people and range all people who have at least one child.
+
+I hope this helps! Let me know if you have any other questions.
+
+Sure, here is the Python code for determining the domain and range of a binary relation:
+
+```python
+def domain_and_range(relation):
+  """
+  Determines the domain and range of a binary relation.
+
+  Args:
+    relation: A binary relation.
+
+  Returns:
+    A tuple of the domain and range of the relation.
+  """
+
+  domain = set()
+  range = set()
+
+  for x, y in relation:
+    domain.add(x)
+    range.add(y)
+
+  return domain, range
+```
+
+Here is an example of how to use the `domain_and_range()` function:
+
+```python
+relation = [(1, 2), (3, 4), (5, 6)]
+
+domain, range = domain_and_range(relation)
+
+print(domain)
+# Output: {1, 3, 5}
+
+print(range)
+# Output: {2, 4, 6}
+```
+
+I hope this helps! Let me know if you have any other questions.
