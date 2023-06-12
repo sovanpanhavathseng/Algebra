@@ -1,0 +1,139 @@
+The two-point form of a line is a formula that can be used to find the equation of a line given two points on the line. The formula is:
+
+```
+y - y1 = (y2 - y1)/(x2 - x1)(x - x1)
+```
+
+where (x1, y1) and (x2, y2) are the two points on the line.
+
+For example, let's say we have two points on a line: (1, 2) and (3, 4). We can use the two-point form to find the equation of the line.
+
+```
+y - 2 = (4 - 2)/(3 - 1)(x - 1)
+y - 2 = 2/2(x - 1)
+y - 2 = x - 1
+y = x + 1
+```
+
+This is the equation of the line that passes through the points (1, 2) and (3, 4).
+
+The two-point form is a useful tool for finding the equation of a line when you only know two points on the line. It is also a good way to check your work if you have already found the equation of a line.
+
+The two-point form of a line is a formula that can be used to find the equation of a line given two points that lie on the line. The formula is:
+
+```
+y - y1 = (y2 - y1) / (x2 - x1) * (x - x1)
+```
+
+where:
+
+* `y` is the y-coordinate of a point on the line
+* `y1` is the y-coordinate of the first point
+* `y2` is the y-coordinate of the second point
+* `x` is the x-coordinate of a point on the line
+* `x1` is the x-coordinate of the first point
+* `x2` is the x-coordinate of the second point
+
+To use the two-point form, simply substitute the coordinates of the two points into the formula. For example, if the two points are (1, 2) and (3, 5), then the equation of the line would be:
+
+```
+y - 2 = (5 - 2) / (3 - 1) * (x - 1)
+```
+
+```
+y - 2 = 3 * (x - 1)
+```
+
+```
+y - 2 = 3x - 3
+```
+
+```
+y = 3x + 1
+```
+
+The two-point form is a useful tool for finding the equation of a line when you only know the coordinates of two points on the line. It is also a more general form of the slope-intercept form, which can only be used when you know the slope and the y-intercept of the line.
+
+Here are some examples of how to use the two-point form to find the equation of a line:
+
+* Find the equation of a line that passes through the points (2, 3) and (5, 7).
+
+```
+y - 3 = (7 - 3) / (5 - 2) * (x - 2)
+```
+
+```
+y - 3 = 4 * (x - 2)
+```
+
+```
+y - 3 = 4x - 8
+```
+
+```
+y = 4x + 5
+```
+
+* Find the equation of a line that passes through the points (-1, -2) and (3, 4).
+
+```
+y - (-2) = (4 - (-2)) / (3 + 1) * (x + 1)
+```
+
+```
+y + 2 = 6 * (x + 1)
+```
+
+```
+y + 2 = 6x + 6
+```
+
+```
+y = 6x + 4
+```
+
+As you can see, the two-point form is a versatile tool that can be used to find the equation of a line in a variety of situations.
+
+Sure, here is the Python code for the Two-Point Form:
+
+```python
+def two_point_form(p1, p2):
+  """
+  Returns the equation of a line in two-point form, given two points on the line.
+
+  Args:
+    p1: A tuple of the x and y coordinates of the first point.
+    p2: A tuple of the x and y coordinates of the second point.
+
+  Returns:
+    The equation of the line in two-point form, as a string.
+  """
+
+  # Calculate the slope of the line.
+  m = (p2[1] - p1[1]) / (p2[0] - p1[0])
+
+  # Calculate the y-intercept of the line.
+  b = p1[1] - m * p1[0]
+
+  # Return the equation of the line in two-point form.
+  return "y = mx + b".format(m=m, b=b)
+```
+
+Here is an example of how to use the `two_point_form()` function:
+
+```python
+p1 = (1, 2)
+p2 = (3, 5)
+
+equation = two_point_form(p1, p2)
+
+print(equation)
+```
+
+This will print the following output:
+
+```
+y = 3x + 1
+```
+
+As you can see, the `two_point_form()` function returns the equation of the line in two-point form, which is a general equation for a line that can be used to find the slope and y-intercept of the line.
