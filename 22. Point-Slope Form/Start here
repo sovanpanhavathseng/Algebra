@@ -1,0 +1,108 @@
+Point-slope form is a form of linear equation that uses the slope and a point on the line to express the equation. The general form of a point-slope equation is:
+
+```
+y - y1 = m(x - x1)
+```
+
+where:
+
+* `y` is the y-coordinate of a point on the line
+* `y1` is the y-coordinate of a known point on the line
+* `m` is the slope of the line
+* `x` is an unknown x-coordinate
+* `x1` is the x-coordinate of the known point on the line
+
+To find the slope of a line, you can use the following formula:
+
+```
+m = (y2 - y1) / (x2 - x1)
+```
+
+where:
+
+* `y2` is the y-coordinate of the second point
+* `y1` is the y-coordinate of the first point
+* `x2` is the x-coordinate of the second point
+* `x1` is the x-coordinate of the first point
+
+Once you have the slope and a point on the line, you can use the point-slope form to express the equation of the line.
+
+Here is an example of a point-slope equation:
+
+```
+y - 2 = 3(x - 1)
+```
+
+This equation tells us that the line passes through the point (1, 2) and has a slope of 3. We can graph this line by plotting the point (1, 2) and then using the slope to find another point on the line. Since the slope is 3, we know that the line will rise 3 units for every 1 unit it moves to the right. So, if we move 1 unit to the right from (1, 2), we will be at the point (2, 5). We can then connect the two points to graph the line.
+
+The point-slope form is a useful way to express the equation of a line when you only know the slope and a point on the line. It is also a good way to find the equation of a line when you are given a graph of the line.
+
+Point-slope form is a way of writing the equation of a line that emphasizes the slope of the line and a point on the line. The equation is:
+
+```
+y - y₁ = m(x - x₁)
+```
+
+where:
+
+* `y` is the y-coordinate of any point on the line
+* `y₁` is the y-coordinate of the point given
+* `x` is the x-coordinate of any point on the line
+* `x₁` is the x-coordinate of the point given
+* `m` is the slope of the line
+
+To use point-slope form, you need to know the slope of the line and a point on the line. Once you have this information, you can plug it into the equation to find the equation of the line.
+
+For example, let's say you know that a line has a slope of 2 and passes through the point (3, 1). You can plug this information into the point-slope form equation to find the equation of the line:
+
+```
+y - 1 = 2(x - 3)
+```
+
+This equation can be simplified to:
+
+```
+y = 2x - 5
+```
+
+This is the equation of the line with a slope of 2 that passes through the point (3, 1).
+
+Point-slope form is a useful way to write the equation of a line because it is easy to use and it emphasizes the slope of the line. The slope of a line tells you how steep the line is, and it is important information for understanding the line.
+
+Sure, here is a Python code for point-slope form:
+
+```python
+def point_slope_form(slope, point):
+  """
+  Returns the equation of a line in point-slope form given the slope and a point on the line.
+
+  Args:
+    slope: The slope of the line.
+    point: A tuple of the form (x, y), where x is the x-coordinate and y is the y-coordinate of a point on the line.
+
+  Returns:
+    The equation of the line in point-slope form.
+  """
+
+  x, y = point
+  return f"y - {y} = {slope}(x - {x})"
+```
+
+Here is an example of how to use the `point_slope_form()` function:
+
+```python
+slope = 2
+point = (3, 1)
+
+equation = point_slope_form(slope, point)
+
+print(equation)
+```
+
+This will print the following output:
+
+```
+y - 1 = 2(x - 3)
+```
+
+This is the equation of the line with a slope of 2 that passes through the point (3, 1).
